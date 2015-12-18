@@ -55,7 +55,7 @@ directory '/var/www/html//bawarchi/tiffins' do
 end
 
 remote_file '/var/www/html/bawarchi/meals/biryani.txt' do
-  source 'https://s3-us-west-2.amazonaws.com/<bucketname>-bucket/meals/biryani.txt'
+  source 'https://s3-us-west-2.amazonaws.com/garlic-bucket/meals/biryani.txt'
   owner 'bawarchi'
   group 'bawarchi'
   mode '0755'
@@ -63,7 +63,7 @@ remote_file '/var/www/html/bawarchi/meals/biryani.txt' do
 end
 
 remote_file '/var/www/html/bawarchi/tiffins/dosa.txt' do
-  source 'https://s3-us-west-2.amazonaws.com/<bucketname>-bucket/tiffins/dosa.txt'
+  source 'https://s3-us-west-2.amazonaws.com/garlic-bucket/tiffins/dosa.txt'
   owner 'bawarchi'
   group 'bawarchi'
   mode '0755'
